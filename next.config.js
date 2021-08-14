@@ -3,7 +3,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 });
 
 module.exports = withBundleAnalyzer({
-      webpack: (config) => {
-        return config;
-      }
-    });
+  webpack: (config) => {
+    return config;
+  }
+});
