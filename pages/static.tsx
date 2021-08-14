@@ -36,7 +36,7 @@ title, buttonLabel
 
 export const getStaticProps: GetStaticProps<StaticPageProps> = async () => {
   return {
-    props: {title: "This is a static page with revalidate", buttonLabel: "Go to the main page"},
+    props: {title: "This is a static page that is revalidated every second", buttonLabel: "Go to the main page"},
     // Regenerate the page:
     // - When a request comes in
     // - At most once every 1 second
